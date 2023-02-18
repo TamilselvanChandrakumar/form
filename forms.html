@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #form{
+        padding: 30px;
+        background-image: url(/home/tamilselvan/Downloads/pexels-evie-shaffer-4004374.jpg);
+        background-size: cover;
+        color: crimson ;
+        margin-top: 100px;
+        margin-left: 200px;
+        margin-right: 250px;
+      }
+      .fname{
+        margin-left: 38px;
+      }
+      .lname{
+        margin-left: 18px;
+      }
+      .fathername{
+        margin-left: 3px;
+      }
+      .occu{
+        margin-left: 25px;
+      }
+      .dob{
+        margin-left: 73px;
+      }
+      .email{
+        margin-left: 68px;
+      }
+      .sub{
+        margin-top: 50px;
+        margin-left: 300px;
+      }
+      .gendermale{
+        margin-left:55px;
+      }
+      .occupation{
+        margin-left: 25px;
+      }
+
+
+    </style>
+</head>
+<body style="background-color:grey ;">
+    <div id="form">
+    <form action="\">
+        <label for="firstname" >firstname</label>
+        <input type="text" placeholder="tamil" class="fname" required>
+        <label for="lastname" class="lname">lastname</label>
+        <input type="text" placeholder="selvan" required><br><br>
+        <label for="fathername" >father's name</label>
+        <input type="text" class="fathername"><br><br>
+        <label for="occupation">occupation</label>
+        <select name="occupation" class="occupation">
+          <option value="employee">employee</option>
+          <option value="enterprenur">enterprenur</option>
+          <option value="farmer">farmer</option>
+          <option value="goverment sector">goverment sector</option>
+        </select><br><br>
+        <!-- <input type="text" class="occu"><br><br> -->
+        <label for="dob" >d.o.b</label>
+        <input type="date" class="dob"><br><br>
+        <label for="gender" >gender</label>
+        <label for="male" class="gendermale" style="color: gold;">male</label>
+        <input type="radio" name="gender" value="male">
+        <label for="fmale" style="color: gold;">female</label>
+        <input type="radio" name="gender" value="fmale"><br><br>
+        <label for="ph">phonenumber</label>
+        <input type="tel" class="tel"><br><br>
+        <label for="email">email</label>
+        <input type="email" class="email"><br><br>
+        <label for="document">attach document</label>
+        <input type="file"><br><br>
+        <input type="submit" value ="submit" class="sub">
+        <input type="reset">
+
+    </form>
+    </div>
+</body>
+</html>
